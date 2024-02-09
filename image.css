@@ -1,0 +1,18 @@
+html{
+	background-color: pink;
+	background-size: cover;
+}
+body{
+	background-color: pink;
+	margin: 0px;
+	min-height: 100vh;
+}
+
+.container{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 600px;
+	background-color: pink;
+	background-size: cover;
+}

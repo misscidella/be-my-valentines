@@ -1,0 +1,54 @@
+html{
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+
+}
+body{
+	background-image: url(valentines.jpg);
+	background-size: cover;
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+}
+p{
+	font-family: "Papyrus";
+	font-size: 4em;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+.btn{
+	font-weight: 700;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+
+}
+.container2{
+	display: flex;
+	grid-gap: 100px;
+
+}
+.btn-primary{
+	font-family: "Papyrus";
+	background-color:#FFEAEC;
+	border-color:##FFEAEC;
+	--bs-btn-hover-bg:#FFEAEC;
+	--bs-btn-hover-color:#FFEAEC;
+
+}
+.btn-primary:hover{
+	background-color: #FFEAEC;
+	border-color: #FFEAEC;
+	opacity: 0.8;
+}
+.btn-xl{
+	padding: 2rem 3rem;
+}
